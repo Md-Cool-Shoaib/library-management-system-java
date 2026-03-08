@@ -1,5 +1,7 @@
 
 package com.mdshoaib.corejava.library;
+import com.mdshoaib.corejava.model.Book;
+
 import java.util.ArrayList;
 public class Library {
 private ArrayList<Book> catalog;

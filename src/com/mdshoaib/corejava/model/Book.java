@@ -1,4 +1,4 @@
-package com.mdshoaib.corejava.library;
+package com.mdshoaib.corejava.model;
 
 public class Book {
     private int isbn_Num;
@@ -29,9 +29,6 @@ public class Book {
     public void setPrice(double price) {
         this.price = price;
     }
-
-
-
     public String getTitle() {
         return title;
     }
