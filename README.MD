@@ -1,15 +1,14 @@
 # 📚 Library Management System (Core Java)
 
-A console-based **Library Management System** built using Core Java to demonstrate Object-Oriented Programming principles and basic data management.
+A console-based **Library Management System** built using Core Java to demonstrate Object-Oriented Programming principles and efficient data management using **ArrayList and HashMap**.
 
 ---
 
 ## 🚀 Features
 
 * Add books to the library catalog
-* Remove books by title
-* Search books using case-insensitive matching
-* Borrow and return books
+* Remove books using ISBN
+* Search books quickly using ISBN lookup
 * Display all books in the library
 
 ---
@@ -18,19 +17,27 @@ A console-based **Library Management System** built using Core Java to demonstra
 
 * Java (Core Java)
 * OOP Concepts
-* Arrays for data storage
-* Exception Handling
+* ArrayList for storing books
+* HashMap for fast book lookup
+* Iterator for safe removal
 
 ---
 
 ## 📂 Project Structure
 
 ```
-com.mdshoaib.corejava.library
+com.mdshoaib.corejava.librarysystem
 │
-├── Book.java      → Represents a book entity
-├── Library.java   → Handles catalog operations
-└── Main.java      → Runs and tests the system
+├── model
+│   └── Book.java
+│
+├── arrayimplementation
+│   ├── Library.java
+│   └── Main.java
+│
+└── hashmapimplementation
+    ├── Library.java
+    └── Main.java
 ```
 
 ---
@@ -39,7 +46,7 @@ com.mdshoaib.corejava.library
 
 1. Clone the repository
 2. Open in IntelliJ IDEA / Eclipse / VS Code
-3. Navigate to `Main.java`
+3. Navigate to `hashmapimplementation/Main.java`
 4. Run the program
 
 ---
@@ -49,24 +56,17 @@ com.mdshoaib.corejava.library
 This project was created to practice:
 
 * Object-Oriented Design
-* Encapsulation and class interaction
-* Array manipulation logic
+* Working with ArrayList and HashMap
+* Efficient data lookup using HashMap
 * Writing clean, maintainable Java code
 
 ---
 
 ## 👨‍💻 Author
 
-**Md Shoaib**
+**Md Shoaib**  
 Aspiring Software Developer | Java & DSA Learner
 
----
+## 🤝 Contributing
 
-## ⭐ Future Improvements
-
-* Add menu-driven user interaction
-* Store data using ArrayList or database
-* Add member management
-* Implement book issue history
-
----
+Contributions are welcome! Feel free to fork this repository and submit a pull request.
